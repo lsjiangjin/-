@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(void)
+#include <stdlib.h>
+int main(int argc,char*argv[])
 {
 	float a;
 	int c, d, f;
@@ -23,4 +24,6 @@ int main(void)
 			printf_s("error");
 		}
 	}
+	system("pause");
+	return 0;
 }
